@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho</title>
+
+    <!--Link de icons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" type="text/css" href="css/style-carrinho.css">
+</head>
+
+<!-- SCRIPT DA BARRA DE NAVEGAÇÃO -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".nav-list li ul").hide();
+        $(".nav-list li").hover(
+            function () { $(this).children("ul").show(); },
+            function () { $(this).children("ul").hide(); }
+        );
+    });
+</script>
+
+<body link="#D2A866" vlink="#D2A866" alink="#D2A866">
+
+    <body>
+        <!--Navbar-->
+        <header class="header">
+            <div class="header-container">
+                <ul class="nav-list">
+
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-logo">
+                            <img src="../assets//imagens/logo/logo.svg" style="width: 80px;">
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="../index.html" class="nav-link">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="tabela.html" class="nav-link">Produtos</a>
+                        <ul class="nav-list2">
+
+                            <li class="nav-item2">
+                                <a href="colorado.html" class="nav-link2">Colorado
+                            </li></a>
+
+                            <li class="nav-item2">
+                                <a href="hoegarden.html" class="nav-link2">Hoegaarden
+                            </li></a>
+
+                            <li class="nav-item2">
+                                <a href="stella.html" class="nav-link2">Stella Artois
+                            </li></a>
+
+                            <li class="nav-item2">
+                                <a href="budweiser.html" class="nav-link2">Budweiser
+                            </li></a>
+
+                            <li class="nav-item2">
+                                <a href="tabela.html" class="nav-link2">Tabela de produtos
+                            </li></a>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="sobre.html" class="nav-link">Sobre</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="Contato.html" class="nav-link">Contato</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#review" class="nav-link">Review</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="Parceiros.html" class="nav-link">Parceiros</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="Formulario.html" class="nav-icon">
+                            <i class="uil uil-user"></i>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="carrinho.html" class="nav-icon">
+                            <i class="uil uil-shopping-cart"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </header>
+
+
+        <h1 class="body-text">Itens no carrinho</h1>
+        <center>
+            <hr width="35%" size="2" color="#D2A866">
+        </center>
+
+        <div class="container">
+
+            <div class="container2">
+
+                <div class="pagar">
+                    <h3>Selecione o método de pagamento:</h3>
+                    <select>
+                        <option>Cartão de crédtio/débito</option>
+                        <option>Boleto Bancário</option>
+                        <option>PIX</option>
+                    </select> <br> <br>
+
+                    <br>
+                    <br>
+                    <br>
+
+                    <form name="endereco" enctype="text/plain">
+                        Endereço: <br>
+                        <input type="text" size="45" name="tendereco" placeholder="Digite seu endereço">
+                    </form>
+
+                    <h2>Subtotal: <span>R$ 70,30</span></h2>
+                </div>
+
+                <a href="" onclick="validar();">Finalizar pedido</a>
+
+                <div class="cart-items">
+                    <img src="../assets//imagens/ste1.jpeg" alt="">
+
+                    <div class="cart-content">
+                        <h3>Item 1</h3>
+                        <h4>R$ 19,90</h4>
+                    </div>
+
+                </div>
+
+                <div class="cart-items">
+                    <img src="../assets//imagens/col3.jpg" alt="">
+
+                    <div class="cart-content">
+                        <h3>Item 2</h3>
+                        <h4>R$ 24,90</h4>
+                    </div>
+
+                </div>
+
+                <div class="cart-items">
+                    <img src="../assets//imagens/hoe4.jpg" alt="">
+
+                    <div class="cart-content">
+                        <h3>Item 3</h3>
+                        <h4>R$ 25,50</h4>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="img-pagamentos">
+            <img src="../assets//imagens/pagamentos.png" alt="">
+        </div>
+
+        <!--Script para validar campo de endereço-->
+        <script type="text/javascript">
+
+            function validar() {
+                if (document.endereco.tendereco.value == "") {
+                    window.alert('Para finalizar o pedido, você deve incluir seu endereço!');
+                }
+                if (document.endereco.tendereco.value != "")
+                    window.open("pagamento2.html");
+            }
+
+        </script>
+
+
+    </body>
+
+</html>

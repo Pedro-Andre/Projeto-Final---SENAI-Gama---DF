@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap');
+
+body{
+    background: #141009;
+    margin: 50px 0px; 
+    padding: 0px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: #D2A866;
+}
+
+p{
+    color: #D2A866;
+
+}
+
+input{
+    padding: 10px;
+    border: 1px solid #D2A866;
+    color: #D2A866;
+    align-items: center;
+    border-radius: 10px;
+    background: #141009;
+    outline: none;
+}
+
+.cadastro-btn {
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    transition: .2s;
+    border: 4px solid #D2A866;
+}
+
+.cadastro-btn:hover {
+    background: #D2A866;
+    color: #141009;
+    font-weight: 500;
+}

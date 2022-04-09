@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #141009;
+    overflow-x: hidden;    
+}
+
+/*Scrollbar*/
+    ::-webkit-scrollbar {
+        width: 7px;
+        
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background-color: #1D1201;
+        
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: #D2A866;
+    }
+
+
+
+/*NavBar*/
+.header {
+    top: 0px;
+    position: fixed;
+	width: 100%;
+	height: 80px;
+	background: #14100985;
+    z-index: 999;
+    backdrop-filter: blur(5px);
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.header-container {
+	max-width: 920px;
+	margin: 0 auto;
+    
+}
+
+.nav-list {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #D2A866;
+    display: block;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.nav-link2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #D2A866;
+    text-decoration: none;  
+}
+
+.nav-link2:hover {
+    color: #fff;
+}
+
+.nav-item2 {
+    padding: 20px 20px;
+}
+
+.nav-list2 {
+    list-style: none;
+    position: absolute;
+    top: 55px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 2px;
+    background-color: #141009;
+    border-top: 0px;
+    border-left: 1px solid #D2A866;
+    border-right: 1px solid #D2A866;
+    border-bottom: 1px solid #D2A866;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 0px 15px 35px #000000;
+}
+
+.nav-item i {
+    font-size: 25px;
+}
+
+/*Body components*/
+.body-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #D2A866;
+    text-align: center;
+    position: relative;
+    top: 150px;
+
+}
+
+hr {
+    position: relative;
+    top: 160px;
+}
+
+/*Tabela*/
+.tabela-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 170px;
+}
+
+table {
+    border-color: #D2A866;
+    color: #D2A866;
+    font-family: 'Montserrat', sans-serif;
+}
+
+th {
+    background: #D2A866;
+    color: #141009;
+    padding: 10px 0px;
+}
+
+td {
+    padding: 10px 5px;
+    text-align: center;
+}
+/*Rodapé*/
+.rodape-container{
+    width: 100%;
+    height: 400px;
+    background: #D2A866;
+
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social {
+    font-size: 30px;
+    color: #D2A866;
+    background: #141009;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 0px 30px 0px 30px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.social:hover {
+    transform: scale(1.1);
+    border-radius: 50%;
+    box-shadow: 0px 15px 15px #00000090;
+}
+
+.rodape-container footer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 270px;
+    color: #D2A866;
+    font-size: 12px;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    top: 270px;
+    color: #D2A866;
+    font-size: 12px;
+}
+
+/*Resultado Script*/
+.script-resultado {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 200px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.script-resultado2 {
+    width: 100%;
+    height: 200px;
+    position: relative;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.script-resultado {
+    display: flex;
+}
+
+.script-content p{
+    color: #D2A866;
+    font-size: 20px;
+    word-spacing: 7px;
+}
+
+.script-content .script-btn {
+    position: relative;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    padding: 15px 20px;
+    background: #141009;
+    color: #D2A866;
+    border: 2px solid #D2A866;
+    border-radius: 0px 20px 0px 20px;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.script-content .script-btn:hover {
+    position: relative;
+    background: #D2A866;
+    color: #141009;
+    border-radius: 20px 0px 20px 0px;
+    padding: 16px 21px;
+    box-shadow: 2px 10px 30px #000000;
+    font-size: 18px;
+}

@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #141009;
+    overflow-x: hidden;    
+}
+
+/*Scrollbar*/
+    ::-webkit-scrollbar {
+        width: 7px;
+        
+    }
+
+    ::-webkit-scrollbar-track {
+        border-radius: 5px;
+        background-color: #1D1201;
+        
+    }
+
+    ::-webkit-scrollbar-thumb {
+        border-radius: 5px;
+        background-color: #D2A866;
+    }
+
+
+
+/*NavBar*/
+.header {
+    top: 0px;
+    position: fixed;
+	width: 100%;
+	height: 80px;
+	background: #14100985;
+    z-index: 999;
+    backdrop-filter: blur(5px);
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.header-container {
+	max-width: 920px;
+	margin: 0 auto;
+    
+}
+
+.nav-list {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;  
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #D2A866;
+    display: block;
+    font-size: 18px;
+}
+
+.nav-link:hover {
+    color: #fff;
+}
+
+.nav-link2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    color: #D2A866;
+    text-decoration: none;  
+}
+
+.nav-link2:hover {
+    color: #fff;
+}
+
+.nav-item2 {
+    padding: 20px 20px;
+}
+
+.nav-list2 {
+    list-style: none;
+    position: absolute;
+    top: 55px;
+    color: white;
+    font-size: 20px;
+    padding: 10px 2px;
+    background-color: #141009;
+    border-top: 0px;
+    border-left: 1px solid #D2A866;
+    border-right: 1px solid #D2A866;
+    border-bottom: 1px solid #D2A866;
+    border-radius: 0px 20px 0px 20px;
+    box-shadow: 0px 15px 35px #000000;
+}
+
+.nav-item i {
+    font-size: 25px;
+}
+
+/*Body components*/
+.body-text {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    color: #D2A866;
+    text-align: center;
+    position: relative;
+    top: 150px;
+
+}
+
+hr {
+    position: relative;
+    top: 160px;
+}
+
+/*Sobre*/
+.sobre-container {
+    background: #fff;
+    position: relative;
+    top: 45px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.sobre-container2 {
+    position: relative;
+    top: 150px;
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+}
+
+.sobre-container3 {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+.sobre-container3 img {
+    width: 100%;
+    height: 80vh;
+}
+
+.sobre-text {
+    position: absolute;
+    max-width: 650px;
+    top: 50px;
+}
+
+.sobre-text p{
+    font-family: 'Montserrat', sans-serif;
+    color: #D2A866;
+    font-size: 18px;
+    letter-spacing: 1.5px;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.download {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.link-pdf a{
+    position: relative;
+	color: #D2A866;
+	border-radius: 10px;
+	transition: .2s;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.link-pdf a:hover {    
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+	color: #fff;
+    padding: 15px;
+    box-shadow: 0 10px 15px #000000;
+}
+
+
+/*Rodapé*/
+.rodape-container{
+    width: 100%;
+    height: 400px;
+    background: #D2A866;
+
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.social {
+    font-size: 30px;
+    color: #D2A866;
+    background: #141009;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 0px 30px 0px 30px;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.social:hover {
+    transform: scale(1.1);
+    border-radius: 50%;
+    box-shadow: 0px 15px 15px #00000090;
+}
+
+.rodape-container footer {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    top: 270px;
+    color: #D2A866;
+    font-size: 12px;
+}
+
+footer {
+    position: relative;
+    text-align: center;
+    top: 270px;
+    color: #D2A866;
+    font-size: 12px;
+}

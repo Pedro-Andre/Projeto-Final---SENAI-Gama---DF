@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="assetsWelig/css/formulario.css">
+</head>
+
+<body>
+    <h1>Cadastro</h1>
+
+    <form name="cadastro" method="post" enctype="text/plain">
+        <p>Nome Completo:</p>
+        <input type="text" class="a" name="tnome" size="30" maxlength="50" placeholder="Digite seu nome">
+
+        <p>E-mail:</p>
+        <input type="email" class="a" name="temail" size="30" maxlength="30" placeholder="Digite seu e-mail"
+            value=""><br>
+
+        <p>Senha:</p>
+        <input type="password" class="a" name="tsenha" size="30" maxlength="15" placeholder="Digite sua senha"
+            value=""><br>
+
+        <p>Data de nascimento:</p>
+        <input type="date" class="a" name="tnasc"><br>
+
+        <p>Endereço:</p>
+        <input type="text" class="a" name="tendereco" size="30" maxlength="35" placeholder="" value=""><br>
+
+        <p>Sexo: <br> <br>
+            <input type="radio" class="a" name="tsexo" value="m">Masculino
+            <br>
+            <input type="radio" class="a" name="tsexo" value="f"> Feminino<br>
+        </p>
+
+        <p>Usuário Especial: <br> <br>
+            <input type="radio" class="a" name="tusuario" value="sim"> Sim<br>
+            <input type="radio" class="a" name="tusuario" value="nao"> Não<br>
+        </p>
+
+        <p>Estado Civil: <br> <br>
+            <input type="radio" class="a" name="tcivil" value="s"> Solteiro<br>
+            <input type="radio" class="a" name="tcivil" value="c"> Casado<br>
+            <input type="radio" class="a" name="tcivil" value="d"> Divorciado
+        </p>
+
+
+        <input type="submit" value="Cadastrar" class="cadastro-btn" onclick="validar();">
+
+    </form>
+
+
+    <!--Script para validação de campos começa-->
+    <script type="text/javascript">
+
+        function validar() {
+            if (document.cadastro.tnome.value == "") {
+                window.alert("Preencha o campo Nome!");
+                document.cadastro.tnome.focus();
+                return false;
+            }
+            if (document.cadastro.temail.value == "") {
+                window.alert("Você deve preencher o campo de E-mail!");
+                document.cadastro.tnome.focus();
+                return false;
+            }
+            if (document.cadastro.tnome.value != "") {
+                window.open("index.html");
+            }
+        }
+
+
+    </script>
+
+    <!--Script para validação de campos encerra-->
+</body>
+
+</html>

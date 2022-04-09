@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Todos</title>
+
+    <!--Link de icons-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style-tabela.css">
+
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<!-- SCRIPT DA BARRA DE NAVEGAÇÃO -->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".nav-list li ul").hide();
+        $(".nav-list li").hover(
+            function () { $(this).children("ul").show(); },
+            function () { $(this).children("ul").hide(); }
+        );
+    });
+</script>
+
+<body link="#D2A866" vlink="#D2A866" alink="#D2A866">
+
+    <!--Navbar-->
+    <header class="header">
+        <div class="header-container">
+            <ul class="nav-list">
+
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-logo">
+                        <img src="../assets/imagens/logo/logo.svg" style="width: 80px;">
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="tabela.html" class="nav-link">Produtos</a>
+                    <ul class="nav-list2">
+
+                        <li class="nav-item2">
+                            <a href="colorado.html" class="nav-link2">Colorado
+                        </li></a>
+
+                        <li class="nav-item2">
+                            <a href="hoegarden.html" class="nav-link2">Hoegaarden
+                        </li></a>
+
+                        <li class="nav-item2">
+                            <a href="stella.html" class="nav-link2">Stella Artois
+                        </li></a>
+
+                        <li class="nav-item2">
+                            <a href="budweiser.html" class="nav-link2">Budweiser
+                        </li></a>
+
+                        <li class="nav-item2">
+                            <a href="tabela.html" class="nav-link2">Tabela de produtos
+                        </li></a>
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a href="sobre.html" class="nav-link">Sobre</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="Contato.html" class="nav-link">Contato</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="#review" class="nav-link">Review</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="Parceiros.html" class="nav-link">Parceiros</a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="Formulario.html" class="nav-icon">
+                        <i class="uil uil-user"></i>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a href="carrinho.html" class="nav-icon">
+                        <i class="uil uil-shopping-cart"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <!--Nome página-->
+
+    <h1 class="body-text">Produtos - Tabela de todos os produtos</h1>
+    <center>
+        <hr width="35%" size="2" color="#D2A866">
+    </center>
+
+    <br>
+    <br>
+
+    <!--Tabela-->
+    <div class="tabela-container">
+        <table border="2px">
+            <th colspan="4">Produtos</th>
+
+            <tr>
+                <td colspan="2"> </td>
+                <td>Valor a vista</td>
+                <td>Valor desconto 10%</td>
+            </tr>
+
+            <tr>
+                <td rowspan="6">Colorado</td>
+                <td>Colorado Ribeirão Larger 350ml</td>
+                <td>R$ 4,99</td>
+                <td>R$ 4,50</td>
+            </tr>
+            <tr>
+                <td>Kit Curso do Urso</td>
+                <td>R$ 47,96</td>
+                <td>R$ 43,20</td>
+            </tr>
+            <tr>
+                <td>Colorado Linha Brasil Hop Larger</td>
+                <td>R$ 24,90</td>
+                <td>R$ 22,40</td>
+            </tr>
+            <tr>
+                <td>Cerveja Colorado Orgânica</td>
+                <td>R$ 15,99</td>
+                <td>R$ 14,40</td>
+            </tr>
+            <tr>
+                <td>Kit Ribeirão Larger, Appia, Demoiselle + 1 Copo Oficial</td>
+                <td>R$ 40,00</td>
+                <td>R$ 36,00</td>
+            </tr>
+            <tr>
+                <td>Kit Ribeirão Larger 600ml 24 Unid. + 4 Copos</td>
+                <td>R$ 325,00</td>
+                <td>R$ 292,50</td>
+            </tr>
+            <tr>
+                <td rowspan="6">Hoegaarden</td>
+                <td>Cerveja Hoegaarden Wit 269ml (8 Unid.)</td>
+                <td>R$ 31,90</td>
+                <td>R$ 28,70</td>
+            </tr>
+            <tr>
+                <td>Kit 8 Hoegaarden 269ml + Copo Hoegaarden 250ml</td>
+                <td>R$ 56,60</td>
+                <td>R$ 50,90</td>
+            </tr>
+            <tr>
+                <td>Cerveja Hoegaarden Wit 269ml</td>
+                <td>R$ 4,99</td>
+                <td>R$ 4,50</td>
+            </tr>
+            <tr>
+                <td>Kit Hoegaarden Wit 330ml + Copo 250ml</td>
+                <td>R$ 25,50</td>
+                <td>R$ 22,90</td>
+            </tr>
+            <tr>
+                <td>Kit 6 Hoegaarden Wit 330ml + Copo 250ml</td>
+                <td>R$ 75,60</td>
+                <td>R$ 68,00</td>
+            </tr>
+            <tr>
+                <td>Kit Hoegaarden Wit caixa 24 Unid. + 4 Copos 250ml</td>
+                <td>R$ 345,00</td>
+                <td>R$ 310,50</td>
+            </tr>
+            <tr>
+                <td rowspan="6">Stella Artois</td>
+                <td>Kit Stella Artois Cálice + 1 Cerveja sem glúten</td>
+                <td>R$ 19,90</td>
+                <td>R$ 17,90</td>
+            </tr>
+            <tr>
+                <td>Kit Stella Artois (1 Stella Artois + 1 Cálice 250ml)</td>
+                <td>R$ 25,90</td>
+                <td>R$ 23,30</td>
+            </tr>
+            <tr>
+                <td>Kit 2 Cálices Stella Artois + Cervejas sem glúten GRÁTIS</td>
+                <td>R$ 47,80</td>
+                <td>R$ 43,00</td>
+            </tr>
+            <tr>
+                <td>Kit Stella Artois (4 Stella Artois + 1 Cálice 250ml)</td>
+                <td>R$ 40,50</td>
+                <td>R$ 36,45</td>
+            </tr>
+            <tr>
+                <td>Kit Stella Artois sem glúten (24 Unid.) + Balde Stella Artois</td>
+                <td>R$ 162,00</td>
+                <td>R$ 145,80</td>
+            </tr>
+            <tr>
+                <td>Kit Balde + 2 Cálices + Barmat + 12 Stellas sem glúten</td>
+                <td>R$ 280,50</td>
+                <td>R$ 252,45</td>
+            </tr>
+            <tr>
+                <td rowspan="6">Budweiser</td>
+                <td>Kit Budweiser 8 Cervejas 269ml + 2 Copos 410ml</td>
+                <td>R$ 37,50</td>
+                <td>R$ 33,75</td>
+            </tr>
+            <tr>
+                <td>Kit Budweiser (2 Budweiser 330ml + 1 Copo 350ml)</td>
+                <td>R$ 19,50</td>
+                <td>R$ 17,50</td>
+            </tr>
+            <tr>
+                <td>Kit Budweiser 269ml (8 Unid.) + 1 Copo 350ml</td>
+                <td>R$ 35,60</td>
+                <td>R$ 32,00</td>
+            </tr>
+            <tr>
+                <td>Kit 4 Copos Budweiser 410ml</td>
+                <td>R$ 69,90</td>
+                <td>R$ 62,90</td>
+            </tr>
+            <tr>
+                <td>Copo Budweiser 410ml</td>
+                <td>R$ 14,90</td>
+                <td>R$ 13,40</td>
+            </tr>
+            <tr>
+                <td>Balde Budweiser</td>
+                <td>R$ 69,90</td>
+                <td>R$ 62,90</td>
+            </tr>
+        </table>
+
+    </div>
+
+    <br>
+    <br>
+
+    <!--Calculo do estoque-->
+    <div class="script-resultado">
+        <div class="script-content">
+
+            <p>O valor total do estoque é: R$ <span1></span1>,00 <br><br>
+
+                O valor total do estoque com desconto de 10%: R$ <span2>,</span2>0 <br><br>
+
+                O valor total do estoque a prazo: R$ <span3></span3>
+            </p> <br><br>
+
+            <input type="button" class="script-btn" name="calcular" value="Calcular valor do estoque"
+                onclick="calculo()">
+
+        </div>
+
+    </div>
+
+    <!--Calculo individual dos produtos-->
+    <div class="script-resultado2">
+        <div class="script-content">
+
+            <p>O valor dos produtos selecionados por você é: R$ <span></span>,00</p> <br><br>
+
+            <input type="button" class="script-btn" name="calcular" value="Calcular produtos individualmente"
+                onclick="calculo2();">
+
+        </div>
+
+    </div>
+
+    <!--Scritp de calulo do estoque-->
+    <script type="text/javascript">
+
+        var valor = 1822;
+        var resultado1 = document.querySelector('span1');
+        var resultado2 = document.querySelector('span2');
+        var resultado3 = document.querySelector('span3');
+
+        function calculo() {
+            resultado1.innerHTML = valor;
+            window.alert('O valor total do estoque é: R$ ' + resultado1.innerHTML + ',00');
+
+            //Cálculo do desconto de 10%
+            resultado2.innerHTML = valor * 0.90;
+            window.alert('O valor total do estoque com desconto: R$ ' + resultado2.innerHTML + '0');
+
+            //Cálculo do acréscimo de 10% do pagamento a prazo
+            resultado3.innerHTML = valor * 1.10;
+            window.alert('O valor total do estoque a prazo: R$ ' + resultado3.innerHTML);
+        }
+
+    </script>
+
+    <!--Script de calulo de produtos individuais-->
+    <script>
+
+        function calculo2() {
+
+            var resultado4 = document.querySelector('span');
+
+            var produtos = ["x", "Colorado Ribeirão Larger 350ml", "Kit Curso do Urso", "Colorado Linha Brasil Hop Larger", "Cerveja Colorado Orgânica", "Kit Ribeirão Larger, Appia, Demoiselle + 1 Copo Oficial", "Kit Ribeirão Larger 600ml 24 Unid. + 4 Copos", "Cerveja Hoegaarden Wit 269ml (8 Unid.)", "Kit 8 Hoegaarden 269ml + Copo Hoegaarden 250ml", "Cerveja Hoegaarden Wit 269ml", "Kit Hoegaarden Wit 330ml + Copo 250ml", "Kit 6 Hoegaarden Wit 330ml + Copo 250ml", "Kit Hoegaarden Wit caixa 24 Unid. + 4 Copos 250ml", "Kit Stella Artois Cálice + 1 Cerveja sem glúten", "Kit Stella Artois (1 Stella Artois + 1 Cálice 250ml)", "Kit 2 Cálices Stella Artois + Cervejas sem glúten GRÁTIS", "Kit Stella Artois (4 Stella Artois + 1 Cálice 250ml)", "Kit Stella Artois sem glúten (24 Unid.) + Balde Stella Artois", "Kit Balde + 2 Cálices + Barmat + 12 Stellas sem glúten", "Kit Budweiser 8 Cervejas 269ml + 2 Copos 410ml", "Kit Budweiser (2 Budweiser 330ml + 1 Copo 350ml)", "Kit Budweiser 269ml (8 Unid.) + 1 Copo 350ml", "Kit 4 Copos Budweiser 410ml", "Copo Budweiser 410ml", "Balde Budweiser"];
+            var valores = ["x", 4.99, 47.96, 24.90, 15.99, 40.00, 325.00, 31.90, 56.60, 4.99, 25.50, 75.60, 345.00, 19.90, 25.90, 47.80, 40.50, 162.00, 280.50, 37.50, 19.50, 35.60, 69.90, 14.90, 69.90];
+            var estoque = ["x", 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10, 10];
+
+            var pergunta = "sim";
+            var carrinho = 0;
+            while (pergunta == "sim") {
+                var menu = parseInt(prompt("Menu de produtos \n 1º " + produtos[1] + " R$" + valores[1] + " \n 2º " + produtos[2] + " R$" + valores[2] + " \n 3º " + produtos[3] + " R$" + valores[3] + " \n 4º " + produtos[4] + " R$" + valores[4] + " \n 5º " + produtos[5] + " R$" + valores[5] + " \n 6º " + produtos[6] + " R$" + valores[6] + " \n 7º " + produtos[7] + " R$" + valores[7] + " \n 8º " + produtos[8] + " R$" + valores[8] + " \n 9º " + produtos[9] + " R$" + valores[9] + " \n 10º " + produtos[10] + " R$" + valores[10] + " \n 11º " + produtos[11] + " R$" + valores[11] + " \n 12º " + produtos[12] + " R$" + valores[12] + " \n 13º " + produtos[13] + " R$" + valores[13] + " \n 13º " + produtos[13] + " R$" + valores[13] + " \n 14º " + produtos[14] + " R$" + valores[14] + " \n 15º " + produtos[15] + " R$" + valores[15] + " \n 16º " + produtos[16] + " R$" + valores[16] + " \n 17º " + produtos[17] + " R$" + valores[17] + " \n 18º " + produtos[18] + " R$" + valores[18] + " \n 19º " + produtos[19] + " R$" + valores[19] + " \n 20º " + produtos[20] + " R$" + valores[20] + " \n 21º " + produtos[21] + " R$" + valores[21] + " \n 22º " + produtos[22] + " R$" + valores[22] + " \n 23º " + produtos[23] + " R$" + valores[23] + " \n 24º " + produtos[24] + " R$" + valores[24]));
+                if (menu == 1) {
+                    var qtd1 = prompt("Quantidade disponível: " + estoque[1] + " \n Digite a quantidade desejada:")
+                    if (qtd1 <= estoque[1]) {
+                        estoque[1] -= qtd1;
+                        carrinho += valores[1] * qtd1;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 2) {
+                    var qtd2 = prompt("Quantidade disponível: " + estoque[2] + " \n Digite a quantidade desejada:")
+                    if (qtd2 <= estoque[2]) {
+                        estoque[2] -= qtd2;
+                        carrinho += valores[2] * qtd2;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 3) {
+                    var qtd3 = prompt("Quantidade disponível: " + estoque[3] + " \n Digite a quantidade desejada:")
+                    if (qtd3 <= estoque[3]) {
+                        estoque[3] -= qtd3;
+                        carrinho += valores[3] * qtd3;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 4) {
+                    var qtd4 = prompt("Quantidade disponível: " + estoque[4] + " \n Digite a quantidade desejada:")
+                    if (qtd4 <= estoque[4]) {
+                        estoque[4] -= qtd4;
+                        carrinho += valores[4] * qtd4;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 5) {
+                    var qtd5 = prompt("Quantidade disponível: " + estoque[5] + " \n Digite a quantidade desejada:")
+                    if (qtd5 <= estoque[5]) {
+                        estoque[5] -= qtd5;
+                        carrinho += valores[5] * qtd5;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 6) {
+                    var qtd6 = prompt("Quantidade disponível: " + estoque[6] + " \n Digite a quantidade desejada:")
+                    if (qtd6 <= estoque[6]) {
+                        estoque[6] -= qtd6;
+                        carrinho += valores[6] * qtd6;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 7) {
+                    var qtd7 = prompt("Quantidade disponível: " + estoque[7] + " \n Digite a quantidade desejada:")
+                    if (qtd7 <= estoque[7]) {
+                        estoque[7] -= qtd7;
+                        carrinho += valores[7] * qtd7;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 8) {
+                    var qtd8 = prompt("Quantidade disponível: " + estoque[8] + " \n Digite a quantidade desejada:")
+                    if (qtd8 <= estoque[8]) {
+                        estoque[8] -= qtd8;
+                        carrinho += valores[8] * qtd8;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 9) {
+                    var qtd9 = prompt("Quantidade disponível: " + estoque[9] + " \n Digite a quantidade desejada:")
+                    if (qtd9 <= estoque[9]) {
+                        estoque[9] -= qtd9;
+                        carrinho += valores[9] * qtd9;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 10) {
+                    var qtd10 = prompt("Quantidade disponível: " + estoque[10] + " \n Digite a quantidade desejada:")
+                    if (qtd10 <= estoque[10]) {
+                        estoque[10] -= qtd10;
+                        carrinho += valores[10] * qtd10;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 11) {
+                    var qtd11 = prompt("Quantidade disponível: " + estoque[11] + " \n Digite a quantidade desejada:")
+                    if (qtd11 <= estoque[11]) {
+                        estoque[11] -= qtd11;
+                        carrinho += valores[11] * qtd11;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 12) {
+                    var qtd12 = prompt("Quantidade disponível: " + estoque[12] + " \n Digite a quantidade desejada:")
+                    if (qtd12 <= estoque[12]) {
+                        estoque[12] -= qtd12;
+                        carrinho += valores[12] * qtd12;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 13) {
+                    var qtd13 = prompt("Quantidade disponível: " + estoque[13] + " \n Digite a quantidade desejada:")
+                    if (qtd13 <= estoque[13]) {
+                        estoque[13] -= qtd13;
+                        carrinho += valores[13] * qtd13;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 14) {
+                    var qtd14 = prompt("Quantidade disponível: " + estoque[14] + " \n Digite a quantidade desejada:")
+                    if (qtd14 <= estoque[14]) {
+                        estoque[14] -= qtd14;
+                        carrinho += valores[14] * qtd14;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 15) {
+                    var qtd15 = prompt("Quantidade disponível: " + estoque[15] + " \n Digite a quantidade desejada:")
+                    if (qtd15 <= estoque[15]) {
+                        estoque[15] -= qtd15;
+                        carrinho += valores[15] * qtd15;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 16) {
+                    var qtd16 = prompt("Quantidade disponível: " + estoque[16] + " \n Digite a quantidade desejada:")
+                    if (qtd16 <= estoque[16]) {
+                        estoque[16] -= qtd16;
+                        carrinho += valores[16] * qtd16;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 17) {
+                    var qtd17 = prompt("Quantidade disponível: " + estoque[17] + " \n Digite a quantidade desejada:")
+                    if (qtd17 <= estoque[17]) {
+                        estoque[17] -= qtd17;
+                        carrinho += valores[17] * qtd17;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 18) {
+                    var qtd18 = prompt("Quantidade disponível: " + estoque[18] + " \n Digite a quantidade desejada:")
+                    if (qtd18 <= estoque[18]) {
+                        estoque[18] -= qtd18;
+                        carrinho += valores[18] * qtd18;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 19) {
+                    var qtd19 = prompt("Quantidade disponível: " + estoque[19] + " \n Digite a quantidade desejada:")
+                    if (qtd19 <= estoque[19]) {
+                        estoque[19] -= qtd19;
+                        carrinho += valores[19] * qtd19;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 20) {
+                    var qtd20 = prompt("Quantidade disponível: " + estoque[20] + " \n Digite a quantidade desejada:")
+                    if (qtd20 <= estoque[20]) {
+                        estoque[20] -= qtd20;
+                        carrinho += valores[20] * qtd20;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 21) {
+                    var qtd21 = prompt("Quantidade disponível: " + estoque[21] + " \n Digite a quantidade desejada:")
+                    if (qtd21 <= estoque[21]) {
+                        estoque[21] -= qtd21;
+                        carrinho += valores[21] * qtd21;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 22) {
+                    var qtd22 = prompt("Quantidade disponível: " + estoque[22] + " \n Digite a quantidade desejada:")
+                    if (qtd22 <= estoque[22]) {
+                        estoque[22] -= qtd22;
+                        carrinho += valores[22] * qtd22;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 23) {
+                    var qtd23 = prompt("Quantidade disponível: " + estoque[23] + " \n Digite a quantidade desejada:")
+                    if (qtd23 <= estoque[23]) {
+                        estoque[23] -= qtd23;
+                        carrinho += valores[23] * qtd23;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                } else if (menu == 24) {
+                    var qtd24 = prompt("Quantidade disponível: " + estoque[24] + " \n Digite a quantidade desejada:")
+                    if (qtd24 <= estoque[24]) {
+                        estoque[24] -= qtd24;
+                        carrinho += valores[24] * qtd24;
+                    } else { alert("Quantidade digitada além do Estoque disponível.\nPor favor refaça sua solicitação.") }
+                }
+                pergunta = prompt("Deseja continuar?");
+            }
+
+            resultado4.innerHTML = carrinho;
+            window.alert('O valor total do estoque é: R$ ' + resultado4.innerHTML + ',00');
+
+        }
+
+    </script>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!--Rodapé-->
+    <div class="rodape-container">
+
+        <div class="socials">
+
+            <div class="social">
+                <a href="https://pt-br.facebook.com/login/device-based/regular/login/" target="_blank">
+                    <i class="uil uil-facebook-f"></i></a>
+            </div>
+
+            <div class="social">
+                <a href="https://www.instagram.com/" target="_blank">
+                    <i class="uil uil-instagram-alt"></i></a>
+            </div>
+
+            <div class="social">
+                <label><a href="https://twitter.com/?logout=1638026736709" target="_blank">
+                        <i class="uil uil-twitter"></i></label></a>
+            </div>
+
+        </div>
+
+        <footer>Pedro André e Wellington | SENAI Gama-DF <br><br>
+
+            Endereço: St. Sul EQ 2/8 - Gama, Brasília - DF, 72415-116 ||
+
+            Telefone: (61) 4042-6565 <br> <br>
+
+        </footer>
+    </div>
+</body>

@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BeerLivery</title>
+
+  <!--Link de icons-->
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+  <!--CSS-->
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <!--Carroussel-->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+</head>
+
+<!-- SCRIPT DA BARRA DE NAVEGAÇÃO -->
+<script type="text/javascript" src="assets/js/jquery.js"></script>
+<script type="text/javascript">
+  $(document).ready(function () {
+    $(".nav-list li ul").hide();
+    $(".nav-list li").hover(
+      function () { $(this).children("ul").show(); },
+      function () { $(this).children("ul").hide(); }
+    );
+  });
+</script>
+
+<body link="#D2A866" vlink="#D2A866" alink="#D2A866">
+
+  <!--Navbar-->
+  <header class="header">
+    <div class="header-container">
+      <ul class="nav-list">
+
+        <li class="nav-item">
+          <a href="index.html" class="nav-logo">
+            <img src="assets/imagens/logo/logo.svg" style="width: 80px;">
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="index.html" class="nav-link">Home</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="pages/tabela.html" class="nav-link">Produtos</a>
+          <ul class="nav-list2">
+
+            <li class="nav-item2">
+              <a href="pages/colorado.html" class="nav-link2">Colorado
+            </li></a>
+
+            <li class="nav-item2">
+              <a href="pages/hoegarden.html" class="nav-link2">Hoegaarden
+            </li></a>
+
+            <li class="nav-item2">
+              <a href="pages/stella.html" class="nav-link2">Stella Artois
+            </li></a>
+
+            <li class="nav-item2">
+              <a href="pages/budweiser.html" class="nav-link2">Budweiser
+            </li></a>
+
+            <li class="nav-item2">
+              <a href="pages/tabela.html" class="nav-link2">Tabela de produtos
+            </li></a>
+          </ul>
+        </li>
+
+        <li class="nav-item">
+          <a href="pages/sobre.html" class="nav-link">Sobre</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="pages/Contato.html" class="nav-link">Contato</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="#review" class="nav-link">Review</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="pages/Parceiros.html" class="nav-link">Parceiros</a>
+        </li>
+
+        <li class="nav-item">
+          <a href="pages/Formulario.html" class="nav-icon">
+            <i class="uil uil-user"></i>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a href="pages/carrinho.html" class="nav-icon">
+            <i class="uil uil-shopping-cart"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!--Hero image-->
+  <div class="hero-container">
+    <video autoplay muted loop>
+      <source src="assets/imagens/Beer.mp4">
+    </video>
+    <div class="hero-text">
+
+      <p>Entregamos</p>
+      <h1>Cervejas</h1>
+      <p class="p2">na porta da sua casa!</p>
+    </div>
+
+    <button class="hero-btn"><a href="assets/pages/tabela.html">Ver cervejas</a></button>
+  </div>
+  <br>
+
+  <!--Marcas-->
+  <center>
+    <hr width="65%" size="2" color="#D2A866">
+  </center>
+  <br>
+
+  <div class="marcas">
+    <div class="marcas-imgs">
+      <a class="link-img" href="pages/colorado.html"><img src="assets/imagens/marc1.png"></a>
+      <a class="link-img" href="pages/hoegarden.html"><img src="assets/imagens/marc2.png"></a>
+      <a class="link-img" href="pages/stella.html"><img src="assets/imagens/marc4.png"></a>
+      <a class="link-img" href="pages/budweiser.html"><img src="assets/imagens/marc3.png"></a>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <center>
+    <hr width="65%" size="2" color="#D2A866">
+  </center>
+  <br>
+  <br>
+  <br>
+  <p class="body-text">Mais vendidos</p>
+
+  <!--Cards-->
+  <div class="card-container">
+
+    <div class="card">
+      <img src="assets/imagens/hoe1.jpg">
+      <h4>Hoegaarden Wit 269ml (8 unidades)</h4>
+      <p class="descricao">-Este kit contem:<br><br>
+        8 Cervejas Hoegaarden Wit 269ml</p>
+      <p class="preco">R$ 31,90</p>
+      <a href="assets/pages/carrinho.html" class="preco-btn">Pro carrinho!</a>
+    </div>
+
+    <div class="card">
+      <img src="assets/imagens/col1.jpg">
+      <h4>Colorado Ribeirão Larger</h4>
+      <p class="descricao">Nascida em Ribeirão Preto, é uma lager leve e refrescante, mas com a cara de Colorado,
+        cerveja clara com laranja, com IBU 20 e 4,5% de teor alcoólico com toda qualidade da primeira cervejaria
+        artesanal do Brasil.</p>
+      <p class="preco">R$ 4,99</p>
+      <a href="assets/pages/carrinho.html" class="preco-btn">Pro carrinho!</a>
+    </div>
+
+    <div class="card">
+      <img src="assets/imagens/col4.jpg">
+      <h4>Colorado Orgânica</h4>
+      <p class="descricao">A Colorado Orgânica, uma fruit beer feita com ingredientes orgânicos, ela é uma cerveja de
+        corpo leve e traz como diferencial a adição do cambuci.</p>
+      <p class="preco">R$ 15,99</p>
+      <a href="assets/pages/carrinho.html" class="preco-btn">Pro carrinho!</a>
+    </div>
+
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <p class="body-text" id="review">O que nossos cliente falam</p>
+  <br>
+
+  <!--Review Slides-->
+  <!-- Swiper -->
+  <div class="review-container">
+    <div #swiperRef="" class="swiper mySwiper">
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <p>"Rápido, prático e ecônomico!"</p>
+          <img src="assets/imagens/personas/persona4.png" style="width: 50px;">
+          <h6>Valdemir dos Santos</h6>
+        </div>
+
+        <div class="swiper-slide">
+          <p>"Muito legal, depois que conheci o BeerLivery tive a oportunidade de experimentar diversas cervejas."</p>
+          <img src="assets/imagens/personas/persona3.png" style="width: 50px;">
+          <h6>Larissa Lima</h6>
+        </div>
+
+        <div class="swiper-slide">
+          <p>"Tinha dificuldades para encontrar novas cervejas na minha cidade, até que achei o BeerLivery e agora tenho
+            diversas opções em um só site."</p>
+          <img src="assets/imagens/personas/persona2.png" style="width: 50px;">
+          <h6>Evandro Santos</h6>
+        </div>
+
+        <div class="swiper-slide">
+          <p>"Ótimo serviço, entrega super rápida!"</p>
+          <img src="assets/imagens/personas/persona1.png" style="width: 50px;">
+          <h6>Ana Júlia</h6>
+        </div>
+
+
+      </div>
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  <!--
+  <p class="append-buttons">
+    <button class="prepend-2-slides">Prepend 2 Slides</button>
+    <button class="prepend-slide">Prepend Slide</button>
+    <button class="append-slide">Append Slide</button>
+    <button class="append-2-slides">Append 2 Slides</button>
+  </p>
+-->
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper (slides review) -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      centeredSlides: true,
+      spaceBetween: 30,
+      pagination: {
+        el: ".swiper-pagination",
+        type: "fraction",
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+
+    var appendNumber = 4;
+    var prependNumber = 1;
+    document
+      .querySelector(".prepend-2-slides")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.prependSlide([
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>",
+        ]);
+      });
+    document
+      .querySelector(".prepend-slide")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.prependSlide(
+          '<div class="swiper-slide">Slide ' + --prependNumber + "</div>"
+        );
+      });
+    document
+      .querySelector(".append-slide")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.appendSlide(
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>"
+        );
+      });
+    document
+      .querySelector(".append-2-slides")
+      .addEventListener("click", function (e) {
+        e.preventDefault();
+        swiper.appendSlide([
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+          '<div class="swiper-slide">Slide ' + ++appendNumber + "</div>",
+        ]);
+      });
+  </script>
+
+  <br>
+  <br>
+  <br>
+
+  <p class="body-text">Fale conosco</p>
+  <br>
+  <br>
+  <br>
+
+  <!--Fale conosco-->
+  <div class="contato-container">
+
+    <div class="contato">
+
+      <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3834.744358802003!2d-48.07714734982168!3d-16.026817888852637!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9359801bf4aad603%3A0xf28fdf00d41fa6c0!2sSenai%20Gama!5e0!3m2!1spt-BR!2sbr!4v1638019935258!5m2!1spt-BR!2sbr"
+        width="500" height="400" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+      <form action="">
+        <h3>Entre em contato</h3>
+        <div class="inputBox">
+          <i class="uil uil-user"></i>
+          <input type="text" placeholder="nome" class="campo" size="45">
+        </div>
+
+        <div class="inputBox">
+          <i class="uil uil-envelope"></i>
+          <input type="email" placeholder="e-mail" class="campo" size="45">
+        </div>
+
+        <div class="inputBox">
+          <i class="uil uil-message"></i>
+          <textarea rows="1" cols="40" placeholder="mensagem"></textarea>
+        </div>
+        <input type="submit" value="Enviar mensagem" class="contato-btn">
+      </form>
+    </div>
+
+  </div>
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+  <!--Rodapé-->
+  <div class="rodape-container">
+
+    <div class="socials">
+
+      <div class="social">
+        <a href="https://pt-br.facebook.com/login/device-based/regular/login/" target="_blank">
+          <i class="uil uil-facebook-f"></i></a>
+      </div>
+
+      <div class="social">
+        <a href="https://www.instagram.com/" target="_blank">
+          <i class="uil uil-instagram-alt"></i></a>
+      </div>
+
+      <div class="social">
+        <label><a href="https://twitter.com/?logout=1638026736709" target="_blank">
+            <i class="uil uil-twitter"></i></label></a>
+      </div>
+
+    </div>
+
+    <footer>Pedro André e Wellington | SENAI Gama-DF <br><br>
+
+      Endereço: St. Sul EQ 2/8 - Gama, Brasília - DF, 72415-116 ||
+
+      Telefone: (61) 4042-6565 <br> <br>
+
+    </footer>
+  </div>
+
+
+
+
+
+</body>
+
+</html>
